@@ -46,5 +46,5 @@ No installation required. Simply open the `index.html` file in your browser.
 
 ```bash
 git clone https://github.com/PyhtonDeveloperNishu/Toggle_color.git
-cd Toggle_Color
+cd Toggle_color
 open index.html
