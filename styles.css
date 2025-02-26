@@ -6,7 +6,6 @@
 .con{
     width: 100%;
     height: 30%;
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,20 +13,43 @@
 
 }
 .toggle_con{
-
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    width: 140px;
-    border: 2px solid green; 
+    justify-content: space-around;
+    height: 65px;
+    width: 155px;
     border-radius: 50px;  
+    background-color: rgb(20, 10, 10);
+    position: relative;
+    cursor: pointer;
+}
+.circle{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: rgb(249, 245, 245);
+    position: absolute; /* Allows for precise positioning */
+    animation: moveCircle 1s linear forwards; /* Adjust animation duration and timing function */
+    
+    left: 2px;
+    transition: transform 0.4s ease;
+
 }
 
 h1{
     text-align: center;
-    margin-top: 6%;
-    font-size: 100px;
-    
+    margin-top: 5%;
+    font-size: 100px;  
+}
+#sun-icon {
+    fill: #EDE21B;
+}
 
+#moon-icon {
+    fill: #EDE21B;
+    /* display: none;  */
+}
+
+
+.right{
+    transform: translate(82px);
 }
